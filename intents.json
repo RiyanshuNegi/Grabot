@@ -1,0 +1,155 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "fine",
+        "Good day"
+      ],
+      "responses": [
+        "Hi, how may i help you",
+        "Hi! I'm Grafaq bot Nice to meet you! What brought you here today?",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is graphic era?",
+        "graphic era location"
+      ],
+      "responses": [
+      "Graphic era is in dehradun uttarakhand"
+      ]
+    },
+    {
+      "tag": "founder",
+      "patterns": [
+        "founder",
+        "founder of graphic era?",
+        "graphic era founder",
+        "whoe found graphic era"
+      ],
+      "responses": [
+      "Graphic Era was founded in 1993 by Dr. Kamal Ghanshala."
+      ]
+    },
+    {
+      "tag": "campus",
+      "patterns": [
+        "how many campus in graphic era?",
+        "where are graphic era other campus"
+      ],
+      "responses": [
+      "There are four campuses two in dehradun and others are in Haldwani & Bhimtal."
+      ]
+    },
+
+    {
+      "tag": "greeting2",
+      "patterns": [
+        "good",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "I am good, what about you?",
+        
+        "Fine how are you?",
+        "Great. Thanks for chatting with me today. What can I do for you?",
+        "Awesome, Excited to help you."
+      ]
+    },
+    {
+      "tag": "bookday",
+      "patterns": [
+        "for how long i can get books?",
+        "how many days i can take books",
+        "book return"
+      ],
+      "responses": [
+        "For 30 days you can keep books, after that youcan reissue or return. "
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "ok", "nothing"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+  
+    {
+      "tag": "feeMode",
+      "patterns": [
+        "Do you take credit cards?",
+        "can i pay fee with cash",
+        "Can i submit fee with upi"
+      ],
+      "responses": [
+        "you can submit your fee with credit card, debit card netbanking and Paytm, UPI is not available right now."
+      ]
+    },
+    {
+      "tag": "feeSubmit",
+      "patterns": [
+        "how to submit fee?",
+        "fee submit"
+      ],
+      "responses": [
+        "you can submit online with university website, or offline but cash is not accaptable right now"
+      ]
+    },
+    {
+      "tag": "course",
+      "patterns": [
+        "how many courses?",
+        "course list"
+      ],
+      "responses": [
+        "There are various type of courses University provide you can check out them in university website."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help line number",
+        "contact to graphic era",
+        "helpline",
+        "help-line",
+        "contact",
+        "Alumni help line number"
+      ],
+      "responses": [
+        "Call (Operational 9AM-6PM): 18008906027 \n WhatsApp: +917617770113 "
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}

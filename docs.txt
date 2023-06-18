@@ -1,0 +1,13 @@
+#library required
+-- pip install flask
+-- pip install torch torchvision
+
+#virtual enviroment setup
+-- py -3 -m venv venv  // creating virtual enviroment
+-- venv\Scripts\activate // activate
+
+# running flask
+-- py app.py
+
+OR 
+python -m flask run
